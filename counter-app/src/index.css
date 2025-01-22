@@ -1,0 +1,138 @@
+/* Define all font weights and styles */
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-Rg.otf') format('opentype');
+  font-weight: 400; /* Normal weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-RgIt.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-Bd.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-BdIt.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-Blk.otf') format('opentype');
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-BlkIt.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-Lt.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-LtIt.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-Md.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-MdIt.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-Th.otf') format('opentype');
+  font-weight: 600; /* Semi-bold (thin-bold) */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-ThIt.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-UltLt.otf') format('opentype');
+  font-weight: 200; /* Ultra light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-UltLtIt.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-XLt.otf') format('opentype');
+  font-weight: 100; /* Extra light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steradian';
+  src: url('./assets/fonts/SteradianTRIAL-XLtIt.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+/* Global styles */
+body {
+  font-family: 'Steradian', Arial, sans-serif;
+  font-weight: 400; /* Normal */
+  background-color: #e0ff32;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full viewport height */
+}
+
+h1 {
+  font-family: 'Steradian';
+  font-weight: 700; /* Bold */
+}
+
+em {
+  font-family: 'Steradian';
+  font-style: italic;
+  font-weight: 300; /* Light italic */
+}
